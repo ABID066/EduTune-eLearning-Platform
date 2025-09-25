@@ -1,10 +1,10 @@
 import React from 'react';
-import img1 from "../assets/courses1.png"
-import img2 from "../assets/courses2.png"
-import img3 from "../assets/courses3.png"
-import img4 from "../assets/courses4.png"
-import img5 from "../assets/courses5.png"
-import img6 from "../assets/courses6.png"
+import img1 from "../../assets/courses1.png"
+import img2 from "../../assets/courses2.png"
+import img3 from "../../assets/courses3.png"
+import img4 from "../../assets/courses4.png"
+import img5 from "../../assets/courses5.png"
+import img6 from "../../assets/courses6.png"
 
 const Courses = () => {
     const courses = [
@@ -55,6 +55,7 @@ const Courses = () => {
                                         className="bg-yellow-400 text-[#490271] px-6 py-1 rounded-lg text-xs sm:text-sm font-bold">
                                         {course.category}
                                     </span>
+
 
                                     <button
                                         className="bg-white border border-gray-300 text-[#3D0C59] px-3 py-1 rounded-full text-md sm:text-lg font-medium hover:bg-gray-50 transition-colors">

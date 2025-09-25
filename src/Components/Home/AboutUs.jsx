@@ -1,41 +1,18 @@
 import React from 'react';
-import img from "../assets/footer.png"
-import img2 from "../assets/5qoNJg 1@2x.png";
-import img3 from "../assets/Group 12.png";
-import img4 from "../assets/Group 11.png";
 
-
-
-const Footer = () => {
+const AboutUs = () => {
     return (
-        <div className="mt-10">
+        <div>
+            <div className="text-center mt-46 sm:mt-60">
+                <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#4a1b6b] mb-8">
+                    আমাদের সম্পর্কে
+                </h2>
 
-            <div className="relative w-full">
-                {/* Middle main banner */}
-                <img className="block w-full h-auto" src={img2} alt="banner"/>
-
-                {/* Top overlay */}
-                <img
-                    className="absolute -top-60 left-0 w-full h-auto"
-                    src={img3}
-                    alt="cover top of the banner"
-                />
-
-                {/* Bottom overlay */}
-                <img
-                    className="absolute top-155 left-0 w-full h-auto"
-                    src={img4}
-                    alt="cover down of the banner"
-                />
-            </div>
-
-            <footer className="py-16 ">
+                <div
+                    className="font-maven text-xm sm:text-sm md:text-sm text-black leading-relaxed text-justify md:leading-loose max-w-[1100px] mx-auto px-4 sm:px-6 md:px-8 lg:px-10 space-y-4">
 
 
-                <div className="max-w-[1200px] mx-auto px-6 ">
-                    <h2 className="font-maven text-[30px] text-black text-center mb-2">About Us</h2>
-                    <hr className="border-t border-black/55 max-w-[957px] mx-auto mb-4"/>
-                    <p className="font-maven text-xs text-black leading-[1.175] text-center max-w-[900px] mx-auto">
+                    <p>
                         এডুটিউন বাংলাদেশের শীর্ষ ই-লার্নিং প্ল্যাটফর্মগুলির মধ্যে অন্যতম। আমরা শিশু-কিশোরদের দক্ষতা
                         ভিত্তিক কোর্স
                         নিয়ে কাজ করে থাকি। আমাদের উল্লেখযোগ্য কোর্সগুলির মধ্যে রয়েছে- স্পোকেন ইংলিশ, অ্যাবাকাস
@@ -58,13 +35,11 @@ const Footer = () => {
                         এভাবেই এডুটিউন পরিণত
                         হয়েছে দেশের একটি সেরা ই-লার্নিং প্ল্যাটফর্মে!
                     </p>
+
                 </div>
-
-
-                <img className="block w-full h-auto mt-50" src={img} alt="Footer banner"/>
-            </footer>
+            </div>
         </div>
     );
 };
 
-export default Footer;
+export default AboutUs;

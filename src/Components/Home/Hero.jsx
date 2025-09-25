@@ -1,9 +1,9 @@
 import React from 'react';
-import Girl from "../assets/the .png";
-import Elephant from "../assets/elephant-8809485_640 1.png";
-import Rocket from "../assets/pngtree-cute-cartoon-rocket-ship-launching-into-space-png-image_19851668 1.png";
-import Toy from "../assets/TOY.png";
-import Bee from "../assets/BEE.png";
+import Girl from "../../assets/the .png";
+import Elephant from "../../assets/elephant-8809485_640 1.png";
+import Rocket from "../../assets/pngtree-cute-cartoon-rocket-ship-launching-into-space-png-image_19851668 1.png";
+import Toy from "../../assets/TOY.png";
+import Bee from "../../assets/BEE.png";
 
 const Hero = () => {
     return (
