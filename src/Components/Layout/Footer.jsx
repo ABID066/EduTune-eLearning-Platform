@@ -12,8 +12,6 @@ const Footer = () => {
             <div className="relative w-full">
                 {/* Middle main banner */}
                 <img className="block w-full h-full object-contain" src={img2} alt="banner"/>
-
-
             </div>
 
             <footer className="py-16 ">
@@ -48,7 +46,7 @@ const Footer = () => {
                 </div>
 
 
-                <img className="block w-full h-auto mt-50" src={img} alt="Footer banner"/>
+                <img className="block w-full h-auto mt-20" src={img} alt="Footer banner"/>
             </footer>
         </div>
     );

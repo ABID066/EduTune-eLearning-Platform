@@ -1,16 +1,15 @@
 import React from 'react';
-import img from "../../assets/world 1.png";
 
-const Images = () => {
+const Image = ({img, alt}) => {
     return (
-        <div className="my-50 mx-10">
+        <div>
             <img
                 className="block w-full max-w-[1000px] h-auto mx-auto"
                 src={img}
-                alt="world"
+                alt={alt}
             />
         </div>
     );
 };
 
-export default Images;
+export default Image;

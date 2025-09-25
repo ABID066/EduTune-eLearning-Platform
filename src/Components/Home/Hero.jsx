@@ -63,7 +63,7 @@ const Hero = () => {
                                 </div>
                             </div>
 
-                            {/* Images under text - Bee and Elephant with Toy */}
+                            {/* Image under text - Bee and Elephant with Toy */}
                             <div className="absolute top-30 right-0 flex items-start justify-end">
                                 <div className="relative">
                                     <img
@@ -123,7 +123,7 @@ const Hero = () => {
                             </div>
                         </div>
 
-                        {/* Bottom Section - Images */}
+                        {/* Bottom Section - Image */}
                         <div className="flex justify-around items-center relative">
                             {/* Girl with rocket */}
                             <div className="relative">
@@ -162,7 +162,7 @@ const Hero = () => {
 
                     {/* Mobile Layout */}
                     <div className="flex md:hidden flex-col">
-                        {/* Hero Images */}
+                        {/* Hero Image */}
                         <div className="flex justify-center items-center mb-8 relative">
                             <div className="relative">
                                 <img

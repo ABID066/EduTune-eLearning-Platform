@@ -6,6 +6,7 @@ import img3 from "../../assets/courses3.png";
 import img4 from "../../assets/courses4.png";
 import img5 from "../../assets/courses5.png";
 import img6 from "../../assets/courses6.png";
+import {HeadLine1} from "../Common/Text.jsx";
 
 const Courses = () => {
     const courses = [
@@ -20,14 +21,10 @@ const Courses = () => {
     return (
         <section className="bg-gray-100 py-8 sm:py-12 lg:py-16">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                {/* Main heading */}
-                <div className="text-center mb-8 sm:mb-12">
-                    <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#4a1b6b] mb-2">
-                        আমাদের কোর্স সমূহ
-                    </h2>
-                </div>
 
-                {/* Courses grid */}
+                <HeadLine1 title="আমাদের কোর্স সমূহ"/>
+
+                {/* Courses */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8 mb-8 sm:mb-12">
                     {courses.map((course) => (
                         <div
@@ -66,12 +63,8 @@ const Courses = () => {
                     ))}
                 </div>
 
-                {/* All courses */}
-                <div className="text-center">
-                    <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#4a1b6b] mb-4">
-                        সকল কোর্স
-                    </h3>
-                </div>
+                <HeadLine1 title="সকল কোর্স "/>
+
             </div>
         </section>
     );

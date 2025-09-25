@@ -1,12 +1,13 @@
 import React from 'react';
+import img from "../../assets/world 1.png";
+import Image from "../Common/Image.jsx";
+import {HeadLine1} from "../Common/Text.jsx";
 
 const AboutUs = () => {
     return (
         <div>
-            <div className="text-center mt-46 sm:mt-60">
-                <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#4a1b6b] mb-8">
-                    আমাদের সম্পর্কে
-                </h2>
+            <div className="text-center my-46 sm:mt-60">
+                <HeadLine1 title="আমাদের সম্পর্কে"/>
 
                 <div
                     className="font-maven text-xm sm:text-sm md:text-sm text-black leading-relaxed text-justify md:leading-loose max-w-[1100px] mx-auto px-4 sm:px-6 md:px-8 lg:px-10 space-y-4">
@@ -38,6 +39,8 @@ const AboutUs = () => {
 
                 </div>
             </div>
+
+            <Image img={img} alt="world"/>
         </div>
     );
 };

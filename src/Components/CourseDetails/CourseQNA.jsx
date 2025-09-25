@@ -1,5 +1,4 @@
 import React from 'react';
-import img from "../../assets/courses2.png";
 import Elephant from "../../assets/elephant-8809485_640 1.png";
 
 const CourseQNA = () => {
