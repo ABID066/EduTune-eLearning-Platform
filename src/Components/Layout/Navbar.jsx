@@ -15,8 +15,11 @@ const Navbar = () => {
         <>
             <nav className="bg-[#411667] h-[70px] flex items-center relative">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+
+
                     {/* Desktop Layout */}
                     <div className="hidden lg:flex items-center justify-between w-full">
+
                         {/* Left section with logo and dropdown */}
                         <div className="flex items-center gap-4">
                             <div className="flex items-center gap-2">
@@ -71,6 +74,7 @@ const Navbar = () => {
 
                     {/* Tablet Layout */}
                     <div className="hidden md:flex lg:hidden items-center justify-between w-full">
+
                         {/* Left section */}
                         <div className="flex items-center gap-3">
                             <img
@@ -125,6 +129,7 @@ const Navbar = () => {
                     </div>
 
                     {/* Mobile Layout */}
+
                     <div className="flex md:hidden items-center justify-between w-full">
                         {/* Left section */}
                         <div className="flex items-center gap-2">

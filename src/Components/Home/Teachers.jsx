@@ -1,5 +1,5 @@
 import React from 'react';
-import img from "../../assets/t.png";
+import img from "../../assets/teachers.png";
 
 const Teachers = () => {
     return (
@@ -21,9 +21,6 @@ const Teachers = () => {
                     শিক্ষক মন্ডলি
                 </h2>
             </div>
-
-
-
 
         </div>
     );

@@ -1,10 +1,10 @@
 import React from 'react';
-import Navbar from "../Components/Home/Navbar.jsx";
+import Navbar from "../Components/Layout/Navbar.jsx";
 import Elephant from "../assets/elephant-8809485_640 1.png"
 import Girl from "../assets/the .png"
 import Hero from "../Components/Home/Hero.jsx";
 import Courses from "../Components/Home/Courses.jsx";
-import Footer from "../Components/Home/Footer.jsx";
+import Footer from "../Components/Layout/Footer.jsx";
 import Images from "../Components/Home/Images.jsx";
 import Layout from "./Layout.jsx";
 import Teachers from "../Components/Home/Teachers.jsx";
@@ -16,13 +16,15 @@ const Home = () => {
         <>
             <Layout>
 
-            <Hero/>
+                <Hero/>
 
-            <Courses/>
-                <Teachers/>
-                <AboutUs/>
+                <Courses/>
 
-            <Images/>
+                    <Teachers/>
+
+                    <AboutUs/>
+
+                <Images/>
 
             </Layout>
         </>
