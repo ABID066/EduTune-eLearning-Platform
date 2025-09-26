@@ -1,16 +1,95 @@
-# React + Vite
+# EduTune - E-Learning Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://edu-tune-e-learning-platform.vercel.app/)
 
-Currently, two official plugins are available:
+EduTune is a modern e-learning platform built with React and Vite, designed to provide an engaging educational experience. The platform offers a user-friendly interface for accessing various courses and educational content.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- Responsive modern UI design
+- Course catalog with detailed course information
+- Interactive course details pages
+- User-friendly navigation system
+- Home page with featured courses
+- Educational resource management
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend Framework:** React
+- **Build Tool:** Vite
+- **Styling:** TailwindCSS
+- **Deployment:** Vercel
+- **Development Tools:**
+  - ESLint for code quality
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+## 🔧 Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## 🌐 Live Demo
+
+Visit the live application: [EduTune E-Learning Platform](https://edu-tune-e-learning-platform.vercel.app/)
+
+## 📁 Project Structure
+
+```
+src/
+├── Components/          # Reusable UI components
+│   ├── CourseDetails/   # Course detail page components
+│   │   ├── CourseBanner.jsx
+│   │   ├── CourseFooterBanner.jsx
+│   │   ├── CourseInfo.jsx
+│   │   ├── CourseQNA.jsx
+│   │   └── CourseTitle.jsx
+│   ├── Home/            # Home page components
+│   │   ├── AboutUs.jsx
+│   │   ├── Courses.jsx
+│   │   ├── Hero.jsx
+│   │   └── Teachers.jsx
+│   ├── Layout/          # Layout components
+│   │   ├── Footer.jsx
+│   │   └── Navbar.jsx
+│   ├── Modal/           # Modal components
+│   │   ├── CourseActions.jsx
+│   │   ├── CourseDetails.jsx
+│   │   ├── CourseInfoGrid.jsx
+│   │   ├── CourseList.jsx
+│   │   ├── Modal.jsx
+│   │   └── ModalWrapper.jsx
+│   ├── Navbar/          # Navigation components
+│   │   ├── DesktopNav.jsx
+│   │   ├── MenuDropdown.jsx
+│   │   ├── MobileNav.jsx
+│   │   ├── SearchDropdown.jsx
+│   │   └── TabletNav.jsx
+│   └── Others/          # Utility components
+│       ├── Image.jsx
+│       └── Text.jsx
+├── Pages/               # Main application pages
+│   ├── CourseDetails.jsx
+│   ├── Home.jsx
+│   └── Layout.jsx
+├── assets/              # Static assets and images
+│   ├── images/          # Various images and icons
+│   └── react.svg
+└── main.jsx             # Application entry point
+```
+
+
