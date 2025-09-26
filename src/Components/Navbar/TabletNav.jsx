@@ -11,7 +11,9 @@ const TabletNav = ({ navigationItems, isSearchOpen, setIsSearchOpen }) => {
                   <span
                       className="flex items-center gap-1 text-[#411667] text-[14px] bg-white px-3 py-1 rounded-full border border-white/20">
                     সকল কোর্স
-                    <img src={drop} alt="d" className="w-2 h-2 ml-1"/>
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7"/>
+                    </svg>
                   </span>
             </div>
 

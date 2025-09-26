@@ -9,7 +9,7 @@ const SearchDropdown = ({ isSearchOpen }) => {
             <div className="absolute top-[70px] left-0 right-0 bg-[#411667] p-4 md:hidden z-50">
                 <input
                     type="text"
-                    placeholder="এখানে সার্চ করুন"
+                    placeholder="Type here to search"
                     className="bg-[#5a1a7a] text-white placeholder-gray-300 px-4 py-2 rounded-full border border-white/20 w-full text-[14px]"
                 />
             </div>
