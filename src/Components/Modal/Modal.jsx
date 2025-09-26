@@ -85,7 +85,7 @@ const Modal = ({ onClose }) => {
                     selectedCourse={selectedCourse}
                 />
                 <CourseDetails
-                    courseName={courses[selectedCourse] || "Select a Course"}
+                    courseName={courses[selectedCourse] || "Abacus Mastering Mental Math For Kids"}
                     info={courseInfo}
                 />
             </div>
