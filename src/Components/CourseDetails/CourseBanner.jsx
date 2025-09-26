@@ -4,6 +4,7 @@ const CourseBanner = ({ img }) => {
     return (
         <div className="relative flex items-center justify-center lg:col-span-2 order-1 lg:order-2">
             <div className="relative w-full max-w-xs sm:max-w-md lg:max-w-2xl bg-[#4a1b6b] rounded-2xl sm:rounded-3xl border-4 sm:border-[6px] border-yellow-400 shadow-2xl h-48 sm:h-60 md:h-72 lg:h-96">
+
                 {/* Inner decorative inset border */}
                 <div className="pointer-events-none absolute inset-0 rounded-xl sm:rounded-2xl border-2 sm:border-4 border-dotted border-white"></div>
 

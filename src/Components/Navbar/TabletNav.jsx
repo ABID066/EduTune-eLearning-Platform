@@ -1,20 +1,20 @@
 import React from "react";
 import language from "../../assets/language.png"
-import drop from "../../assets/drop-down.png";
 
-const TabletNav = ({ navigationItems, isSearchOpen, setIsSearchOpen }) => {
+const TabletNav = ({ navigationItems, isSearchOpen, setIsSearchOpen, onOpen }) => {
     return (
         <div className="flex items-center justify-between w-full">
-            {/* Left */}
 
+            {/* Left */}
             <div className="flex items-center gap-2">
-                  <span
+                  <button
+                      onClick={onOpen}
                       className="flex items-center gap-1 text-[#411667] text-[14px] bg-white px-3 py-1 rounded-full border border-white/20">
                     সকল কোর্স
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7"/>
                     </svg>
-                  </span>
+                  </button>
             </div>
 
             {/* Center */}
@@ -30,7 +30,7 @@ const TabletNav = ({ navigationItems, isSearchOpen, setIsSearchOpen }) => {
             {/* Right */}
             <div className="flex items-center gap-3">
                 <button
-                    onClick={() => setIsSearchOpen(!isSearchOpen)}
+                    onClick={() => setIsSearchOpen(isSearchOpen === "search" ? "off" : "search")}
                     className="w-8 h-8 bg-[#5a1a7a] rounded-full flex items-center justify-center"
                 >
                     🔍︎

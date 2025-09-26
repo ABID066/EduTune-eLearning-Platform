@@ -1,13 +1,12 @@
 import React from "react";
 import language from "../../assets/language.png"
-import drop from "../../assets/drop-down.png"
 
 const DesktopNav = ({ navigationItems, onOpen }) => {
     return (
         <div className="flex items-center justify-between w-full">
             {/* Left section */}
             <div className="flex items-center gap-4">
-                <button className="flex items-center gap-2" onClick={onOpen}>
+                <button className="flex items-center gap-2 cursor-pointer" onClick={onOpen}>
                   <span
                       className="flex items-center gap-1 text-[#411667] text-[14px] bg-white px-3 py-1 rounded-full border border-white/20">
                     সকল কোর্স
@@ -41,7 +40,7 @@ const DesktopNav = ({ navigationItems, onOpen }) => {
                 <div className="w-11 h-11  rounded-full flex items-center justify-center cursor-pointer">
                     <span className="text-white font-bold text-[12px]"><img src={language} alt="l"/></span>
                 </div>
-                <button className="bg-orange-400 text-white px-4 py-1 border-2 border-white rounded-full text-[14px] font-medium hover:bg-orange-500 transition-colors">
+                <button className="cursor-pointer bg-orange-400 text-white px-4 py-1 border-2 border-white rounded-full text-[14px] font-medium hover:bg-orange-500 transition-colors">
                     Log In
                 </button>
                 <div className="w-8 h-8 bg-gray-300 rounded-full flex items-center justify-center cursor-pointer">

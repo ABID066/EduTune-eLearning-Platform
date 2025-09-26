@@ -1,7 +1,7 @@
 import React from "react";
 
 const MenuDropdown = ({ isMenuOpen, navigationItems, setIsMenuOpen }) => {
-    if (!isMenuOpen) return null;
+    if (isMenuOpen!=="menu") return null;
 
     return (
         <div className="absolute top-[70px] left-0 right-0 bg-[#411667] border-t border-white/20 md:hidden z-50">
@@ -11,7 +11,8 @@ const MenuDropdown = ({ isMenuOpen, navigationItems, setIsMenuOpen }) => {
                         <a
                             href={item.href}
                             className="text-white text-[14px] hover:text-gray-200 block"
-                            onClick={() => setIsMenuOpen(false)}
+                            onClick={() => setIsMenuOpen(isMenuOpen === "menu" ? "off" : "menu")}
+
                         >
                             {item.label}
                         </a>

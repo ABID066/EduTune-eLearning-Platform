@@ -12,7 +12,7 @@ const Hero = () => {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16">
                     {/* Desktop Layout */}
                     <div className="hidden lg:flex items-stretch">
-                        {/* Left side - Girl with rocket (1/3 width) */}
+                        {/* Left side*/}
                         <div className="w-1/3 relative flex items-center justify-center">
                             {/* Girl positioned behind rocket */}
                             <div className="absolute right-8 -top-25">
@@ -22,7 +22,7 @@ const Hero = () => {
                                     alt="girl"
                                 />
                             </div>
-                            {/* Rocket positioned in front and slightly to the right */}
+                            {/* Rocket positioned in front */}
                             <div className="absolute right-8 top-25">
                                 <img
                                     className="w-[340px] xl:w-[420px] h-[270px] xl:h-[340px] object-contain relative z-10"
@@ -37,7 +37,7 @@ const Hero = () => {
                             <div className="absolute bottom-20 left-20 text-yellow-400 text-2xl">⭐</div>
                         </div>
 
-                        {/* Right side - Text content and images (2/3 width) */}
+                        {/* Right side */}
                         <div className="w-2/3 relative pl-12">
                             {/* Text content */}
                             <div className="mb-12">
@@ -63,7 +63,7 @@ const Hero = () => {
                                 </div>
                             </div>
 
-                            {/* Image under text - Bee and Elephant with Toy */}
+                            {/* Bee and Elephant with Toy */}
                             <div className="absolute top-30 right-0 flex items-start justify-end">
                                 <div className="relative">
                                     <img
@@ -139,7 +139,7 @@ const Hero = () => {
                                 />
                             </div>
 
-                            {/* Elephant group */}
+                            {/* Elephant Bee Toy */}
                             <div className="relative">
                                 <img
                                     className="w-[140px] md:w-[170px] h-[170px] md:h-[200px] object-contain relative z-10"
@@ -222,7 +222,6 @@ const Hero = () => {
                     </div>
                 </div>
 
-                {/* Background decorative stars - responsive */}
                 <div className="absolute top-10 left-1/4 text-cyan-400 text-lg sm:text-xl lg:text-2xl opacity-60">⭐</div>
                 <div className="absolute bottom-16 left-1/3 text-yellow-400 text-lg sm:text-xl lg:text-2xl opacity-60">⭐</div>
                 <div className="absolute bottom-10 right-1/4 text-pink-400 text-sm sm:text-base lg:text-lg opacity-60">✨</div>

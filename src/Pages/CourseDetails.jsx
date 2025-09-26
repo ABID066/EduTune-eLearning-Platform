@@ -1,5 +1,6 @@
 import React from "react";
-import logobanner from "../assets/lgo.png";
+import Layout from "./Layout.jsx";
+import logoBanner from "../assets/lgo.png";
 import CourseTitle from "../Components/CourseDetails/CourseTitle.jsx";
 import CourseInfo from "../Components/CourseDetails/CourseInfo.jsx";
 import CourseBanner from "../Components/CourseDetails/CourseBanner.jsx";
@@ -14,7 +15,7 @@ import img5 from "../assets/courses5.png";
 import img6 from "../assets/courses6.png";
 
 import { useParams } from "react-router-dom";
-import Layout from "./Layout.jsx";
+
 
 const CourseDetails = () => {
     const { id } = useParams();
@@ -57,7 +58,7 @@ const CourseDetails = () => {
 
                     <CourseQNA/>
 
-                    <CourseFooterBanner img={logobanner}/>
+                    <CourseFooterBanner img={logoBanner}/>
                 </section>
             </div>
         </Layout>
