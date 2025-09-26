@@ -6,7 +6,7 @@ import img3 from "../../assets/courses3.png";
 import img4 from "../../assets/courses4.png";
 import img5 from "../../assets/courses5.png";
 import img6 from "../../assets/courses6.png";
-import {HeadLine1} from "../Common/Text.jsx";
+import {HeadLine1} from "../Others/Text.jsx";
 
 const Courses = () => {
     const courses = [

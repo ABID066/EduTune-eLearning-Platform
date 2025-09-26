@@ -7,7 +7,7 @@ import {GoPersonFill} from "react-icons/go";
 
 import img2 from "../../assets/courses2.png"
 
-const AllCoursesModal = () => {
+const AllCoursesModal = ({onClose}) => {
     const [selectedCourse, setSelectedCourse] = useState(1);
 
     const courses = [
@@ -26,23 +26,22 @@ const AllCoursesModal = () => {
 
     return (
         <>
-                <div className="fixed inset-0 flex items-center justify-center z-50 p-1">
-                    {/* Modal Content */}
-                    <div className="bg-white/10 backdrop-blur-2xl rounded-3xl shadow-2xl w-full max-w-5xl relative overflow-hidden border border-white/20">
+            <div className="fixed inset-0 flex items-center justify-center z-50 p-1">
+                <div className="bg-white/10 backdrop-blur-2xl rounded-3xl shadow-2xl w-full max-w-5xl relative overflow-hidden border border-white/20">
 
                         {/* Close Button */}
                         <button
-                            onClick={() => setIsOpen(false)}
+                            onClick={onClose}
                             className="absolute top-4 right-4 w-12 h-12 flex items-center justify-center
-               text-gray-500 hover:text-red-500 hover:bg-red-50
-               rounded-full transition-colors z-[9999] cursor-pointer"
-                        >
-                            ✕
+                               text-gray-500 hover:text-red-500 hover:bg-red-50
+                               rounded-full transition-colors z-[9999] cursor-pointer"
+                            >
+                                ✕
                         </button>
 
 
                         <div className="grid grid-cols-1 lg:grid-cols-3 max-h-[90vh]">
-                            {/* Left Side: Course List - 1/3 width */}
+                            {/* Left Side: Course List */}
                             <div className="p-6 flex flex-col gap-3 max-h-[500px] overflow-y-auto bg-white/10  col-span-1">
                                 {courses.map((course, index) => (
                                     <button
@@ -59,7 +58,7 @@ const AllCoursesModal = () => {
                                 ))}
                             </div>
 
-                            {/* Right Side: Course Details - 2/3 width */}
+                            {/* Right Side: Course Details */}
                             <div className="p-6 bg-white/10  relative col-span-2">
                                 {/* Decorative Background Elements */}
                                 <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-blue-200/30 to-purple-200/30 rounded-full -translate-y-8 translate-x-8"></div>
@@ -121,8 +120,7 @@ const AllCoursesModal = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-
+            </div>
         </>
     );
 };

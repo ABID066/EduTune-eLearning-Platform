@@ -4,7 +4,7 @@ import TabletNav from "../Navbar/TabletNav.jsx";
 import MobileNav from "../Navbar/MobileNav.jsx";
 import SearchDropdown from "../Navbar/SearchDropdown.jsx";
 import MenuDropdown from "../Navbar/MenuDropdown.jsx";
-import AllCoursesModal from "../Common/AllCoursesModal.jsx";
+import AllCoursesModal from "../Others/AllCoursesModal.jsx";
 
 
 const navigationItems = [
@@ -21,7 +21,7 @@ const Navbar = () => {
 
     return (
         <>
-            {isModalOpen && (<AllCoursesModal/>)}
+            {isModalOpen && (<AllCoursesModal onClose={() => setIsModalOpen(false)} />)}
             <nav className="bg-[#411667] h-[70px] flex items-center relative">
 
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">

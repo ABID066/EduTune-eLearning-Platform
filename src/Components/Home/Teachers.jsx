@@ -1,7 +1,7 @@
 import React from 'react';
 import img from "../../assets/teachers.png";
-import Image from "../Common/Image.jsx";
-import {HeadLine1} from "../Common/Text.jsx";
+import Image from "../Others/Image.jsx";
+import {HeadLine1} from "../Others/Text.jsx";
 
 const Teachers = () => {
     return (

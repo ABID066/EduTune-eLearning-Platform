@@ -2,9 +2,6 @@ import React from 'react';
 import img from "../../assets/footer.png"
 import img2 from "../../assets/color.png";
 
-
-
-
 const Footer = () => {
     return (
         <div className="mt-10">
