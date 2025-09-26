@@ -2,8 +2,10 @@
 
 [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://edu-tune-e-learning-platform.vercel.app/)
 
-EduTune is a modern e-learning platform built with React and Vite, designed to provide an engaging educational experience. The platform offers a user-friendly interface for accessing various courses and educational content.
 
+## 🌐 Live Demo
+
+Visit the live application: [EduTune E-Learning Platform](https://edu-tune-e-learning-platform.vercel.app/)
 ## 🚀 Features
 
 - Responsive modern UI design
@@ -43,9 +45,6 @@ EduTune is a modern e-learning platform built with React and Vite, designed to p
    npm run dev
    ```
 
-## 🌐 Live Demo
-
-Visit the live application: [EduTune E-Learning Platform](https://edu-tune-e-learning-platform.vercel.app/)
 
 ## 📁 Project Structure
 
