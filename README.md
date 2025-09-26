@@ -1,4 +1,4 @@
-# EduTune - E-Learning Platform
+# EduTune | E-Learning Platform
 
 [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://edu-tune-e-learning-platform.vercel.app/)
 
